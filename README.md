@@ -1,0 +1,2 @@
+# QuantumManager
+Personal managemente project.
