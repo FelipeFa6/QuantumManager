@@ -18,9 +18,9 @@ Files description:
 fonts   ->  Font Awesome 4.7.0 
 jQuery  ->  jQUery 3.5.1
 
-pages   ->  contains 2 sides: Default and Cliente
-            1) Default  ->  Contains little back end involvement (Just Login and SignUp)
-            2) Cliente  ->  Has all the DB manipulation.  
+pages       ->  contains 2 sides: Default and Cliente
+1) Default  ->  Little back end involvement (Just Login and SignUp)
+2) Cliente  ->  Has all the DB manipulation.  
 
 
 Database DML:
