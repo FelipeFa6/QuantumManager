@@ -1,6 +1,8 @@
 # QuantumManager
 Email:          felipe.farias.e1@gmail.com / felipe.farias.e@outlook.com
+
 Author:         Felipe Farias
+
 Creation date:  2020, December 11th.
 ************************************
 Technologies used:
