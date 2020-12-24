@@ -1,7 +1,7 @@
-<header>
+<head>
     <link href="CSS/Essentials/vertical-nav.css" rel="stylesheet" type="text/css">
     <link href="../../fonts/font-awesome.css" rel="stylesheet" type="text/css">
-</header>
+</head>
 
 <!-- Start of Vertical NAV-BAR-->
 <nav class="main-nav">
