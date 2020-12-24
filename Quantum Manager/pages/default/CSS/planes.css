@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Montserrat&display=swap');
+
+/*
+    font-family: 'Cinzel Decorative', cursive;
+
+    font-family: 'Montserrat', sans-serif;
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+}
+
+input[type=submit], p, li{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h1{
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: 100;
+}
+
+
+
+/* ---------- MAIN CONTENT ----------- */
+
+.planes{
+    background-color: #FFFFFF;
+    margin-bottom: 100px;
+    height: auto;
+    
+    width: 100vw;
+    
+    text-align-last: center;
+}
+
+.planes{
+    padding-top: 125px;
+    
+    width: 100%;
+}
+
+.planes h1{
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.planes p{
+    line-height: 30px;
+}
+
+.wrapper{
+    display: flex;
+}
+
+.container{
+    width: 400px;
+    margin-bottom: 0px;
+    
+    margin: 0 auto;
+    
+    padding: 20px;
+
+    border-color: black;
+    border-style: solid;
+    border-radius: 20px;
+    text-align: center;
+
+    justify-content: center;
+}
+
+.container h3{
+    margin-bottom: 15px;
+}
+
+input[type=submit]{
+    border-color: #000000;
+    margin-top: 25px;
+    font-size: 1em;
+    padding: 10px;
+}
+
+/* ---------- Responsive ----------- */
+
+@media only screen and (max-width: 1085px){
+    .wrapper{
+        display: block;
+    }
+
+    .container{
+        margin: 50 auto;
+        
+        width: 70vw;
+    }
+    main{
+        width: 100%;
+        min-width: 650px;
+    }
+}

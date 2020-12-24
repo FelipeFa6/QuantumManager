@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Montserrat&display=swap');
+
+/*
+    font-family: 'Cinzel Decorative', cursive;
+
+    font-family: 'Montserrat', sans-serif;
+*/
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.button, input, table, p, li{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3{
+    font-family: 'Montserrat', sans-serif;
+
+    margin-bottom: 20px;
+}
+
+.background{
+    width: 100vw;
+    height: 100%;
+    background-image: url(../img/Background/ingresar.jpg);
+    opacity: 75%;
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: -1;
+}
+
+
+.titulo{
+    margin-bottom: 50px;
+}
+
+.titulo h1{
+    margin-bottom: 0px;
+}
+
+
+main{
+    width: 100vw;
+    margin: 0 auto;
+}
+
+
+/* ================= Cabecera content ================= */
+
+#title{
+    padding-top: 50px;
+
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.logo-container{
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.logo-container img{
+    width: 128px;
+    height: 128px;
+}
+
+
+/* ================= Actualizar NUEVO TRABAJADOR ================= */
+#login-box{
+    min-width: 300px;
+    width: 25%;
+
+    margin: 0 auto;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: white;
+    
+    padding: 15px;
+
+    margin-bottom: 100px;
+
+}
+
+form{
+    display: table;
+    width: 100%;
+}
+
+.sub-wrapper{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.input-login{
+    margin: 10px auto;
+}
+
+.input-login h3{
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.input{
+    padding: 5px;
+    width: 275px;
+    text-align: center;
+}
+
+input[type="submit"], input[type="button"]{
+    width: 100%;
+}
+
+#submit-wrapper{
+    display: flex;
+}
+
+#submit{
+    margin: 0 auto;
+    background-color: #003068;
+    font-size: 1.5em;
+    color: white;
+
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: #0075FF;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+#volver{
+    margin: 0 auto;
+    background-color: #000000;
+    border-radius: 5px;
+    font-size: 1.5em;
+    color: white;
+}
+#volver:hover{
+    background-color: #2E303E;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.msg{
+    text-align: center;
+    color:#0075FF;
+
+    font-size: 20px;
+    
+    margin-bottom: 15px;
+}

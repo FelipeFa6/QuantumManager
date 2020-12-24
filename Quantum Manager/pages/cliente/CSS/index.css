@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
+/*
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+*/
+
+
+.button{
+    background-color: white;
+    cursor: pointer;
+
+    background-color: #FFFFFF;
+    
+    font-size: 16px;
+    width: 200px;
+
+    padding: 10px 0px;
+}
+
+/* ================= Main content ================= */
+.container{
+    margin-bottom: 60px;
+    max-width: 700px;
+    text-align: justify;
+}
+.container h1{
+    margin-bottom: 15px;
+}
+
+#button-container{
+    margin-top: 75px;
+    display: flex;
+}
+#button-container form{
+    margin: 0 auto;   
+}
+
+
+#mensaje-titulo{
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.mensajes-container{
+    min-width: 500px;
+    max-width: 1000px;
+
+    border-style: solid;
+    border-radius: 20px;
+    background-color: white;
+
+    padding: 10px 100px 10px 25px;
+}
+
+.mensajes-container .container{
+    margin-left: 50px;
+}

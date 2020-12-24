@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
+/*
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+*/
+
+
+
+/* ================= Main form ================= */
+
+main{
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+
+/* ================= Titulo ================= */
+
+.cabecera{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+
+/* ================= Contenedor de opciones ================= */
+
+#opciones{
+    margin-bottom: 100px;
+    
+    padding: 20;
+
+    min-width: 400px;
+    width: 100%;
+
+    display: table;
+    border-style: solid;
+}
+
+
+/* ================= Botones ================= */
+
+
+input[type="text"], input[type="date"], input[type="submit"]{
+    padding: 5px 10px;
+    width: 100%;
+}
+input[type="submit"]{
+    margin-top: 10px;
+}
+
+
+.button{
+    background-color: white;
+    cursor: pointer;
+
+    background-color: #FFFFFF;
+    
+    font-size: 16px;
+    width: 200px;
+
+    padding: 10px 0px;
+}
+
+

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Montserrat&display=swap');
+
+/*
+    font-family: 'Cinzel Decorative', cursive;
+
+    font-family: 'Montserrat', sans-serif;
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+}
+
+input[type=button], p, li{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: 100;
+}
+
+
+/* ---------- MAIN CONTENT ----------- */
+main{
+    width: 100%;
+}
+
+.instrucciones{
+    background-color: #FFFFFF;
+    margin-bottom: 50px; 
+    height: auto;
+    
+    
+    padding-top: 150px;
+    padding-left: 5%;
+    
+    width: 80vw;
+    max-width: 100vw;
+}
+
+.instrucciones h1{
+    font-size: 2.5em;
+    margin-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.instrucciones p{
+    line-height: 30px;
+}
+
+.container{
+    margin-bottom: 75px;
+    border-bottom-style: solid;
+    border-bottom-color: #c4c4c4;
+    padding-bottom: 30px;
+}
+
+.container h3{
+    margin-bottom: 15px;
+}
+
+#current{
+    color: #FFFFFF;
+}
+
+
+/* ---------- Responsive ----------- */
+@media only screen and (max-width: 768px){
+    
+}

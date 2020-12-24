@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Montserrat&display=swap');
+/* Navegacion vertical*/
+
+.main-nav {
+    width: 300px;
+    min-height: 450px;
+    height: 100%;
+    background-color: #050505;
+    
+    display: block;
+    position: fixed;
+    padding: 10px 0 60px 20px;
+    
+    border-bottom-style: solid;
+    border-bottom-width: 0.5px;
+    
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+#logo{
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: 100;
+    text-align: center;
+    
+    padding-bottom: 10px;
+
+    border-bottom-style: none;
+    border-bottom-width: 0.2px;
+    margin-bottom: 75px;
+}
+
+
+.main-nav a{
+    display: block;
+    padding: 10px 0 10px 20px;
+    
+    border-bottom: 0.5px solid white;
+    
+    text-transform: capitalize;
+    color: white;
+}
+
+
+.main-nav-ul a:hover{
+    background-color: #3f3f3f;
+}
+
+.main-nav-ul ul{
+    display: none;
+}
+
+.main-nav-ul li:hover ul{
+    display: block;
+    opacity: 0;
+    animation-name: drop-down;
+    animation-duration: 300ms;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes drop-down{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+/*UX Icon*/
+.has-sub span{
+    float: right;
+    margin-right: 20px;
+}
+/*UX Icon*/
+.item span{
+    float: left;
+    margin-right: 20px;
+    width: 15px;
+    height: 15px;
+
+    
+}
+
+.item{
+    transition: margin-left 100ms ease-in-out;
+}
+
+.item:hover{
+    margin-left: 15px;
+}
+
+.sub-item li{
+    padding-left: 30px;
+}
+
+.sub-item a:hover, .item a:hover{
+    color: #FFDF00;
+    transition: 300ms;
+}
+
+#logout a{
+    color: red;
+}

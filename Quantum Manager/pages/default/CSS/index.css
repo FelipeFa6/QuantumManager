@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Montserrat&display=swap');
+
+/*
+    font-family: 'Cinzel Decorative', cursive;
+
+    font-family: 'Montserrat', sans-serif;
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+}
+
+input[type=submit], p, li{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: 100;
+}
+
+
+
+/* ----------- MAIN CONTENT ---------- */
+
+.presentacion-1{
+    background-color: #FFFFFF;
+    height: 650px;
+    
+    width: 100vw;
+    max-width: 100%;
+}
+
+.content-container{
+    padding-top: 150px;
+    padding-left: 10%;
+    
+    width: 550px
+}
+
+.content-container h1{
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.content-container p{
+    line-height: 30px;
+}
+
+#container1 input[type=submit]{
+    height: 50px;
+    width: 150px;
+    margin-top: 40px;
+    
+    font-size: 18px;
+}
+
+#buttonLeft{
+    float: left;
+}
+
+#buttonRight{
+    float: right;
+}
+
+.presentacion-2{
+    background-color: #485461;
+    background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+    
+    color: white;
+    height: 450px;
+    width: 100vw;
+    max-width: 100%;
+}
+
+#container2{
+    margin-top: -100px;
+    margin-right: 100px;
+    float: right;
+}
+
+#container2 p{
+    text-align: right;
+}
+
+#container2 input[type=button]{
+    height: 50px;
+    width: 150px;
+    margin-top: 40px;
+    
+    font-size: 18px;
+    color: black;
+    float: right;
+}
+
+
+
+/* ----------  Slider ---------- */
+#testimonios-title{
+    font-size: 2.6em;
+    margin: 30px 0px;
+    text-align: center;
+}
+
+.slideshow{
+	width: 100%;
+	position: relative;
+    margin-bottom: 50px;
+}
+
+.slider li, .slider ul{
+	width: 100%;
+    text-align: center
+}
+
+.slider li{
+	overflow: hidden;
+}
+
+.slider li img{
+    width: 120px;
+    margin-bottom: 50px;
+}
+
+.slider .caption{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+
+	display: flex;
+	align-items: center;
+	color: #000;
+	flex-direction: column;
+	justify-content: center;
+
+	text-align: center;
+	z-index: 1;
+}
+
+.slider .caption h1{
+	font-size: 30px;
+}
+
+.slider .caption p{
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+.comentarios-container{
+    width: 50vw;
+    height: auto;
+    
+    padding: 50px;
+    margin: 0 auto;
+    background-color: #c4c4c4;
+    border-style: solid;
+
+}
+
+.comentarios-text p{
+    margin-bottom: 15px;
+}
+
+.paginacion{
+	position: absolute;
+	top: 100%;
+	width: 100%;
+
+	display: flex;
+	justify-content: center;
+}
+
+.paginacion li{
+	font-size: 20px;
+	margin: 2px 5px;
+	color: #858585;
+	cursor: pointer;
+}
+
+.izq, .der{
+	position: absolute;
+	top: 0;
+	height: 100%;
+
+	display: flex;
+	align-items: center;
+
+	color: #000;
+	font-size: 35px;
+	cursor: pointer;
+	z-index: 2;
+}
+
+.izq{
+	left: 10px;
+}
+
+.der{
+	right: 10px;
+}
+
+
+
+
+/* ---------- Responsive ----------- */
+@media only screen and (max-width: 911px){
+    .presentacion-2{
+        width: 100%;
+        min-width: 650; 
+        margin: 0 auto;
+    }
+    
+    .presentacion-3{
+        width: 100%;
+        min-width: 650;       
+    }
+    
+    main{
+       width: 100%;    
+    }
+    
+    #container2{
+        margin-right: 8.5%;
+    }
+    
+    #container2 p{
+        text-align: center;
+    }
+    
+    #container2 input[type=button]{
+       margin-right: 35.5%; 
+
+    }
+    
+    #container3 input[type=button]{
+        display: none;
+    }
+      
+}
+
