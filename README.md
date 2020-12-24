@@ -11,7 +11,7 @@ Technologies used:
   5) MySQL
   
 ***************************************** 
-* No framework was used in this project *
+* No framework was used in this project
 *****************************************
 Files description:
 
