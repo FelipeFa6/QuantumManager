@@ -25,5 +25,5 @@ pages       ->  contains 2 sides: Default and Cliente
 2) Cliente  ->  Has all the DB manipulation.  
 
 
-Database DML:
-QuantumManager_DML.sql
+Database DDL File:
+QuantumManager_DDL.sql
