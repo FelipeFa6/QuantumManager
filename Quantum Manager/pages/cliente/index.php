@@ -1,5 +1,13 @@
 <?php
     session_start();
+    if(!isset($_SESSION["idEmpresa"]) || !isset($_SESSION["rutEmpresa"])){
+        //Bad Case
+        echo "Let's not talk about this... <br> 
+        <a href = '../default/index.php'><h1>Go back...</h1> </a>";
+        die();
+    }
+
+
     require_once 'includes/functions.php';
     require_once '../../db_access.php';
 ?>

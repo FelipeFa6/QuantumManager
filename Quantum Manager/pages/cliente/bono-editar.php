@@ -1,8 +1,16 @@
 <?php
-$id = $_POST['idBono'];
-$nombre = $_POST['nombreBono'];
-$monto = $_POST['montoBono'];
-$descripcion = $_POST['descripcionBono'];
+
+if(!isset($_SESSION["idEmpresa"]) || !isset($_SESSION["rutEmpresa"])){
+    //Bad Case
+    echo "Let's not talk about this... <br> 
+    <a href = '../../index.php'><h1>Go back...</h1> </a>";
+
+}else{ 
+    $id = $_POST['idBono'];
+    $nombre = $_POST['nombreBono'];
+    $monto = $_POST['montoBono'];
+    $descripcion = $_POST['descripcionBono'];
+}
 ?>
 
 
